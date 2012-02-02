@@ -21,7 +21,7 @@ Build requirements:
 Canonical homepage:
   http://freshmeat.net/projects/xtail
   http://www.unicom.com/sw/xtail
-  http://packages.debian.org/sid/xtail
+  http://packages.debian.org/xtail
 
 Canonical download:
   See above
@@ -40,8 +40,6 @@ Upstream contact:
 
 License:
   BSD
-  See http://packages.debian.org/changelogs/pool/main/x/xtail/xtail_2.1-5/xtail.copyright
-
 
 Language:
   C
@@ -68,4 +66,4 @@ Port Notes:
 - Initial release 2009-12-28 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2009 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2009-2012 Jari Aalto; Licensed under GPL v2 or later
