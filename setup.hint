@@ -8,4 +8,3 @@ directory. It will notice when new files are created (and
 start watching them) or when old files are deleted (and
 stop watching them)."
 category: Utils
-requires:
