@@ -1,0 +1,71 @@
+xtail
+------------------------------------------
+
+Extended tail that works also on truncated files and directories
+
+Watch the growth of files. It's like running a tail -f on
+a bunch of files at once. It notices if a file is
+truncated and starts from the beginning. You can specify
+both filenames and directories on the command line. If
+you specify a directory, it watches all the files in that
+directory. It will notice when new files are created (and
+start watching them) or when old files are deleted (and
+stop watching them).
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://freshmeat.net/projects/xtail
+  http://www.unicom.com/sw/xtail
+  http://packages.debian.org/sid/xtail
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Chip Rosenthal <chip@unicom.com>
+  Bugs: Chip Rosenthal <chip@unicom.com>
+
+License:
+  BSD
+  See http://packages.debian.org/changelogs/pool/main/x/xtail/xtail_2.1-5/xtail.copyright
+
+
+Language:
+  C
+
+------------------------------------------
+
+Build instructions:
+  unpack xtail-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./xtail*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------------------------------
+
+Port Notes:
+
+----- version 2.1-1 -----
+- Initial release 2009-12-28 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2009 Jari Aalto; Licensed under GPL v2 or later

@@ -1,0 +1,11 @@
+sdesc: "Extended tail that also works on truncated files and directories"
+ldesc: "Watch the growth of files. It's like running a tail -f on
+a bunch of files at once. It notices if a file is
+truncated and starts from the beginning. You can specify
+both filenames and directories on the command line. If
+you specify a directory, it watches all the files in that
+directory. It will notice when new files are created (and
+start watching them) or when old files are deleted (and
+stop watching them)."
+category: Utils
+requires:

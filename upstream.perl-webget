@@ -1,0 +1,2 @@
+tag1: xtail
+  http://packages.debian.org/unstable/xtail pregexp:orig.tar.gz file:xtail_2.1.orig.tar.gz new: x:
